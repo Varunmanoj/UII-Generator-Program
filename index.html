@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UII Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <H1>UII Generator</H1>
+    </header>
+    
+        <label for="ERT"> Enter ERT Meter Number
+            <input type="text" id="ERT" required accesskey="r" />
+        </label>
+        <button type="button" onclick="genuii()" accesskey="G">Generate UII</button><br>
+        <h2>UII Code</h2>
+        <p id="uiicode" aria-live="polite" tabindex="-1"></p>
+        <button id="copybtn" onclick="copy()" accesskey="c" aria-label="Copy UII to Clipboard"
+            aria-live="assertive">Copy</button>
+        <button type="reset" onclick="reset()">Reset</button>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

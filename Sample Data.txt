@@ -1,0 +1,5 @@
+New Meter
+NAM0070008913
+
+UII Base Code
+2.16.840.1.114416.24.

@@ -1,0 +1,19 @@
+body {
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    display: inline;
+}
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    
+
+}
